@@ -4,8 +4,6 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
 
 <img src="https://github.com/ivansor0kin/swift-ios-calculator-app/blob/main/demo.png" alt="demo" width="300" />
 
----
-
 ## Features
 
 - **Basic Arithmetic**: Addition, subtraction, multiplication, and division.  
@@ -17,8 +15,6 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
 - **Decimal Support**: Use `.` to handle floating-point numbers.  
 - **Error Handling**: Displays `Error` for invalid operations (e.g., division by zero).
 
----
-
 ## Project Structure
 
 | File              | Description                                                                                   |
@@ -27,8 +23,6 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
 | **ButtonType.swift** | An enum representing all calculator buttons (digits, operators, etc.), plus their display text and colors. |
 | **ContentView.swift** (a.k.a. `CalculatorView`) | Holds the main SwiftUI layout. Creates a grid of calculator buttons and displays the current result. |
 | **ViewModel.swift** | The MVVM logic. Manages the current `result` and handles operations, sign toggling, clearing, etc. |
-
----
 
 ## How It Works
 
@@ -46,8 +40,6 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
    - **Square Root**: Immediately calculates `√(currentNumber)` if valid.  
    - **Equality**: Splits the expression into parts (e.g., `12 + 7`) and computes the final result.  
    - **Error Handling**: Sets `result` to `"Error"` for invalid operations.
-
----
 
 ## Requirements
 
