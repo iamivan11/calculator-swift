@@ -2,7 +2,7 @@
 
 A simple, modern calculator app built with **SwiftUI**. It supports common arithmetic operations (addition, subtraction, multiplication, division), along with sign inversion, square root, backspace, and more. This repository contains a straightforward example of **SwiftUI** and the **MVVM** pattern to create a clean, functional interface.
 
-<img url="[./docs/images/calculator_screenshot.png](https://github.com/user-attachments/assets/3645ffc8-0f79-47ae-b719-428377cea79d)"
+<img url="https://github.com/user-attachments/assets/3645ffc8-0f79-47ae-b719-428377cea79d"
      alt="Calculator Screenshot"
      width="300" />
 
