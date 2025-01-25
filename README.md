@@ -21,7 +21,7 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
 |-------------------|-----------------------------------------------------------------------------------------------|
 | **App.swift**     | Main entry point. Declares the SwiftUI `@main` struct (`calculator`) and launches `CalculatorView`. |
 | **ButtonType.swift** | An enum representing all calculator buttons (digits, operators, etc.), plus their display text and colors. |
-| **ContentView.swift** (a.k.a. `CalculatorView`) | Holds the main SwiftUI layout. Creates a grid of calculator buttons and displays the current result. |
+| **ContentView.swift** | Holds the main SwiftUI layout. Creates a grid of calculator buttons and displays the current result. |
 | **ViewModel.swift** | The MVVM logic. Manages the current `result` and handles operations, sign toggling, clearing, etc. |
 
 ## How It Works
