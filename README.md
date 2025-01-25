@@ -1,4 +1,4 @@
-# SwiftUI Calculator
+# swift-ios-calculator-app
 
 A simple, modern calculator app built with **SwiftUI**. It supports common arithmetic operations (addition, subtraction, multiplication, division), along with sign inversion, square root, backspace, and more. This repository contains a straightforward example of **SwiftUI** and the **MVVM** pattern to create a clean, functional interface.
 
