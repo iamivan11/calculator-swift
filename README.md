@@ -6,6 +6,10 @@ A simple, modern calculator app built with **SwiftUI**. It supports common arith
 
 <img src="https://github.com/ivansor0kin/swift-ios-calculator-app/blob/main/demo.png" alt="demo" width="300" />
 
+### Access
+
+The app was not designed to be deployed. However, all of the code is provided and could be run locally, for example, in Xcode Simulator for iOS.
+
 ## Features
 
 - **Basic Arithmetic**: Addition, subtraction, multiplication, and division.  
