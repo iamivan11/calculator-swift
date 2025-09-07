@@ -60,3 +60,33 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail caches (occasionally appear on shared repos)
+ehthumbs.db
+Thumbs.db
+
+# Xcode derived/build artifacts
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Editors/IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Merge/patch leftovers
+*.orig
+*.rej
