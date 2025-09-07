@@ -23,12 +23,33 @@ The app was not designed to be deployed. However, all of the code is provided an
 
 ## Project Structure
 
-| File              | Description                                                                                   |
-|-------------------|-----------------------------------------------------------------------------------------------|
-| **App.swift**     | Main entry point. Declares the SwiftUI `@main` struct (`calculator`) and launches `CalculatorView`. |
-| **ButtonType.swift** | An enum representing all calculator buttons (digits, operators, etc.), plus their display text and colors. |
-| **ContentView.swift** | Holds the main SwiftUI layout. Creates a grid of calculator buttons and displays the current result. |
-| **ViewModel.swift** | The MVVM logic. Manages the current `result` and handles operations, sign toggling, clearing, etc. |
+```
+calculator-swift/
+├── main/                        # Source code directory
+│   ├── App.swift                # Main entry point
+│   ├── Models/
+│   │   └── ButtonType.swift     # Button definitions and styling
+│   ├── Views/
+│   │   ├── CalculatorView.swift # Main calculator layout
+│   │   ├── ButtonCellView.swift # Individual button component
+│   │   └── ResultDisplayView.swift # Display component
+│   ├── ViewModels/
+│   │   ├── CalculatorViewModel.swift # Main view model
+│   │   └── ButtonHandler.swift  # Button interaction logic
+│   ├── Utils/
+│   │   └── CalculatorEngine.swift # Mathematical operations
+│   └── Assets.xcassets/         # App icons and assets
+├── main.xcodeproj/              # Xcode project file
+└── README.md
+```
+
+### Architecture
+
+- **Models**: Data structures and enums (`ButtonType`)
+- **Views**: SwiftUI components (`CalculatorView`, `ButtonCellView`, `ResultDisplayView`)
+- **ViewModels**: Business logic and state management (`CalculatorViewModel`, `ButtonHandler`)
+- **Utils**: Pure calculation logic (`CalculatorEngine`)
+- **Resources**: App assets and resources
 
 ## How It Works
 
